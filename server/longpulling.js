@@ -17,7 +17,7 @@ app.get('/terms/', ((req, res)=>{
 
 
 app.get('/map/', ((req, res)=>{
-    res.sendFile(__dirname + '/views/map.jpg');
+    res.sendFile(__dirname + '/views/map.png');
 }));
 
 app.listen(PORT, ()=> console.log(`serever started on port ${PORT}`))
